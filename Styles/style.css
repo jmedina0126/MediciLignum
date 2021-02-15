@@ -1,0 +1,156 @@
+/* ---- Custom classes ---- */
+
+.mt-6,
+.my-6 {
+  margin-top: 5rem !important;
+}
+.mt-8,
+.my-8 {
+    margin-top: 10rem !important;
+}
+.mb-6,
+.my-6 {
+  margin-bottom: 5rem !important;
+}
+
+.px-7 {
+    padding: 0 16rem !important;
+}
+.px-10 {
+  padding: 0 35rem !important;
+}
+
+/* ---- Component classes ---- */
+
+.navbar {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+.navbar-brand img {
+    height: 50px;
+}
+.navbar-toggler {
+    background-color: #147104;
+}
+
+.carousel-inner .carousel-item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition-property: opacity;
+}
+.carousel-item .container-fluid p {
+    transition-delay: 0.4s;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+/* ---- Footer ---- */
+
+footer > .container {
+    background-color: #04733E;
+}
+footer a {
+    color: #76F3FE;
+}
+footer a:hover {
+    color: #B8F8FE;
+}
+
+/* ---- HOME PAGE ---- */
+
+/* ---- Intro ---- */
+
+#intro .carousel-item .container-fluid {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#intro .btn {
+    color: #fff;
+    border-color: #04733E;
+    border-width: medium;
+}
+
+#why-us .card-img-top {
+    height: 86px;
+}
+
+/* ---- ABOUT PAGE ---- */
+
+#what {
+    color: #04733E;
+}
+#who {
+    color: #04733E;
+}
+#who p, #what p {
+    line-height: 30px;
+}
+
+/* ---- SERVICES PAGE ---- */
+
+#services .img-fluid {
+    width: 380px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+/* ---- CONTACT PAGE ---- */
+
+#message-button .btn {
+    color: #fff;
+    background-color: #04733E;
+}
+.custom-file-input ~ .custom-file-label::after {
+    background: none;
+    border: 1px solid #147104;
+    content: Browse;
+}
+
+@media only screen and (min-width: 992px) {
+    .px-lg-8 {
+        padding: 0 25rem !important;
+    }
+    .px-lg-7 {
+        padding-left: 15rem !important;
+        padding-right: 15rem !important;
+    }
+    .py-lg-4 {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    .font-lg-10 {
+        font-size: larger;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .px-lg-block-5 {
+        padding: 3rem !important;
+    }
+    .px-md-3 {
+        padding: 0 1.5rem !important;
+    }
+    .pt-md-3 {
+        padding-top: 1.5rem !important;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
