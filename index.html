@@ -17,17 +17,13 @@
     <header class="fixed-top">
 
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-white">
+      <nav class="navbar navbar-expand-sm navbar-light bg-white justify-content-between">
 
         <a class="navbar-brand" href="#"><img src="Images\brand.png">Medici Lignum</a>
 
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
         <div class="collapse navbar-collapse" id="collapsibleNavId">
 
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <ul class="navbar-nav mt-2 mt-lg-0">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -37,12 +33,16 @@
             <li class="nav-item">
               <a class="nav-link" href="services.html">Services</a>
             </li>
-            <li class="nav-item">
-              <button class="nav-link btn btn-success" type="button" href="contact.html">Contact</button>
-            </li>
           </ul>
 
+          <button class="btn btn-success mx-3" type="button" href="contact.html">Contact us</button>
+
         </div>
+
+        
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
       </nav>
 
@@ -51,47 +51,25 @@
     <!-- Intro -->
     <section id="intro" class="no-gutter">
 
-        <div id="homeImgs" class="carousel slide" data-ride="carousel">
+      <div class="container ">
+        
+        <div class="row">
 
-          <ol class="carousel-indicators">
-            <li data-target="#homeImgs" data-slide-to="0" class="active"></li>
-            <li data-target="#homeImgs" data-slide-to="1"></li>
-            <li data-target="#homeImgs" data-slide-to="2"></li>
-          </ol>
-          
-          <div class="carousel-inner" role="listbox">
-
-            <div class="carousel-item active vh-100" style="background-image: url(Images/firefighter-chainsaw.jpg);">
-              <div class="container-fluid h-100">
-                <p class="text-center pb-5">QUALITY TREE SERVICES PROVIDED BY PROFESSIONAL ARBORISTS</p>
-                <a role="button" href="contact.html" class="btn btn-lg">REQUEST QUOTE</a>
-              </div>
-            </div>
-
-            <div class="carousel-item vh-100" style="background-image: url(Images/tree-service-silhouette.jpg);">
-              <div class="container-fluid h-100">
-                <p class="text-center pb-5">QUALITY TREE SERVICES PROVIDED BY PROFESSIONAL ARBORISTS</p>
-                <a role="button" href="contact.html" class="btn btn-lg">REQUEST QUOTE</a>
-              </div>
-            </div>
-
-            <div class="carousel-item vh-100" style="background-image: url(Images/loggers-cropped.jpg);">
-              <div class="container-fluid h-100">
-                <p class="text-center pb-5">QUALITY TREE SERVICES PROVIDED BY PROFESSIONAL ARBORISTS</p>
-                <a role="button" href="contact.html" class="btn btn-lg">REQUEST QUOTE</a>
-              </div>
-            </div>
-            
+          <div id="cta" class="col m-auto">
+            <h1 class="display-4">Quality tree services</h1>
+            <p class="pb-4 h5">Provided by professional and qualified arborists</p>
+            <a id="cta-btn" role="button" href="contact.html" class="btn text-white btn-lg">Request quote</a>
           </div>
-          <a class="carousel-control-prev" href="#homeImgs" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#homeImgs" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+
+          <div class="col">
+            <picture>
+              <img src="Images\tree-service-silhouette.png" width="465" height="620">
+            </picture>
+          </div>
+
         </div>
+
+      </div>
 
     </section>
 
@@ -160,7 +138,7 @@
                 <img src="Images/pexels-andrea-piacquadio-948873.jpg" class="card-img-top">
                 <div class="card-body">
                   <blockquote class="blockquote">
-                    <p><i class="fa fa-quote-left fa-pull-left fa-border"></i>Good work!<i class="fa fa-quote-right fa-border"></i></p>
+                    <p><i class="fa fa-quote-left fa-pull-left fa-border"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<i class="fa fa-quote-right fa-border"></i></p>
                     <footer class="card-blockquote"><cite title="Source title">Anna</cite></footer>
                   </blockquote>
                 </div>
@@ -174,7 +152,7 @@
                 <img src="Images/pexels-tristan-le-1642883.jpg" class="card-img-top">
                 <div class="card-body">
                   <blockquote class="blockquote">
-                    <p><i class="fa fa-quote-left fa-pull-left fa-border"></i>Good work!<i class="fa fa-quote-right fa-border"></i></p>
+                    <p><i class="fa fa-quote-left fa-pull-left fa-border"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium augue sagittis, condimentum justo id, lobortis enim. Vestibulum mauris lacus, luctus eu ullamcorper et, blandit ac nisi!<i class="fa fa-quote-right fa-border"></i></p>
                     <footer class="card-blockquote"><cite title="Source title">Le family</cite></footer>
                   </blockquote>
                 </div>
@@ -188,7 +166,7 @@
                 <img src="Images/pexels-andrea-piacquadio-3783255.jpg" class="card-img-top">
                 <div class="card-body">
                   <blockquote class="blockquote">
-                    <p><i class="fa fa-quote-left fa-pull-left fa-border"></i>Good work!<i class="fa fa-quote-right fa-border"></i></p>
+                    <p><i class="fa fa-quote-left fa-pull-left fa-border"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium augue sagittis, condimentum justo id, lobortis enim.<i class="fa fa-quote-right fa-border"></i></p>
                     <footer class="card-blockquote"><cite title="Source title">James Jameson</cite></footer>
                   </blockquote>
                 </div>
