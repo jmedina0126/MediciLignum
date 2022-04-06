@@ -59,6 +59,9 @@ body {
     font-weight: 600;
 }
 
+/* ---- Navbar ---- */
+
+
 /* ---- Footer ---- */
 
 footer > .container {
@@ -74,7 +77,13 @@ footer a:hover {
 /* ---- HOME PAGE ---- */
 
 /* ---- Intro ---- */
-
+#intro .container {
+    max-width: 100vw !important;
+    padding: 0 10rem;
+}
+#intro .col {
+    text-align: center;
+}
 #cta-btn {
     background-color: #F69C3C;
     padding-top: 5px;
